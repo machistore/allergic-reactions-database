@@ -12,8 +12,13 @@ Example of recording a database with "DB Browser for SQLite".[^1]
 [^2]:「DB Browser for SQLite」は、ご自身で入手しご利用ください。
 
 ![demo1](https://user-images.githubusercontent.com/104885577/201289868-7d67943c-512f-49c0-a848-8e11b6fc638e.png)
+![demo12](https://user-images.githubusercontent.com/104885577/201511933-321a1776-b6b0-471d-98a9-c6ee85fb2f4e.png)
 
 # Features
+
+We have made it as simple as possible to manage the presence or absence of allergy symptoms first.  
+
+できるだけシンプルかつ、アレルギー症状の有無をまずは管理できるようにつくりました。
 
 ### table list
 
@@ -75,7 +80,9 @@ Example of recording a database with "DB Browser for SQLite".[^1]
 |2|reaction|INTEGER|0||0|
 |3|symptom|TEXT|0||0|0|
 
+# Requerement
 
+SQLiteを操作できる環境が必要です。
 
 
 
