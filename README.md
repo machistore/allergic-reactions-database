@@ -44,7 +44,7 @@ We have made it as simple as possible to manage the presence or absence of aller
 |1|allergen|TEXT|0||0|0|
 |2|diagnostician_id|INTEGER|0||0|0|
 
-* **diagnoses** definition  
+* **diagnoses** table definition  
 
 |cid|name|type|notnull|dflt_value|pk|hidden|
 |---|---|---|---|---|---|---|
