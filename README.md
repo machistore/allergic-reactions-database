@@ -95,9 +95,9 @@ SQLiteが動作する環境が必要です。
 
 # Installation
 
-Open the downloaded file with "DB Browser for SQLite". or use SQLite from a command prompt.  
+Open the downloaded file from "[Release](https://github.com/machistore/allergic-reactions-database/releases)" with "DB Browser for SQLite". or use SQLite from a command prompt.  
 
-ダウンロードしたファイルを"[DB Browser for SQLite](https://sqlitebrowser.org/)"で開く、  
+「[Release](https://github.com/machistore/allergic-reactions-database/releases)」からダウンロードしたファイルを"[DB Browser for SQLite](https://sqlitebrowser.org/)"で開く、  
 もしくはコマンドプロンプトなどからSQLiteをお使いください。  
 
 # Author
