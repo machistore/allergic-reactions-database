@@ -1,7 +1,10 @@
 # allergic reactions database
-This database created in [SQLite](https://www.sqlite.org) to record allergic reactions and meals.
 
-アレルギー反応と食事を記録するための[SQLite](https://www.sqlite.org)で作成したデータベースです。
+This is a simple database template for recording allergic reactions and meals.  
+The "*.db" file was created in [SQLite](https://www.sqlite.org).
+
+アレルギー反応と食事を記録するためのシンプルなデータベースの雛形です。  
+[SQLite](https://www.sqlite.org)で「*.db」ファイルを作成しています。
 
 # DEMO  
 
@@ -13,7 +16,6 @@ Example of recording a database with "DB Browser for SQLite".[^1]
 [^2]:「DB Browser for SQLite」は、ご自身で入手しご利用ください。  
 [Downloads](https://sqlitebrowser.org/dl/)
 
-![demo1](https://user-images.githubusercontent.com/104885577/201289868-7d67943c-512f-49c0-a848-8e11b6fc638e.png)
 ![demo12](https://user-images.githubusercontent.com/104885577/201511933-321a1776-b6b0-471d-98a9-c6ee85fb2f4e.png)
 
 # Features
@@ -22,7 +24,7 @@ We have made it as simple as possible to manage the presence or absence of aller
 
 できるだけシンプルかつ、アレルギー症状の有無をまずは管理できるようにつくりました。
 
-## table list
+## table list テーブルリスト
 
 |name <br> テーブル名|Description <br> 説明|
 |---|---|
@@ -34,9 +36,9 @@ We have made it as simple as possible to manage the presence or absence of aller
 |sqlite_sequence|autoincrement of siagnostician <br> siagnosticianのautoincrement|
 
 
-## table definitions  
+## table definitions テーブルの構成
 
-### **allergens** table definition  
+### **allergens** table definition  アレルギー原の食材テーブル
 
 |cid|name|type|notnull|dflt_value|pk|hidden|
 |---|---|---|---|---|---|---|
@@ -46,14 +48,14 @@ We have made it as simple as possible to manage the presence or absence of aller
 
 0. id(Primary key)
 1. allergen
-    + allergen names
-    + アレルゲンの名前
+    + Foods to which you are allergic (e.g., cherries)
+    + アレルギーの原因となる食材(例:さくらんぼ)
 1. diagnostician_id
     + Diagnosed (see diagnostician table)
     + 診断した者(diagnostician table 参照)
 
 
-### **diagnoses** table definition  
+### **diagnoses** table definition アレルギーの診断テーブル
 
 |cid|name|type|notnull|dflt_value|pk|hidden|
 |---|---|---|---|---|---|---|
@@ -90,7 +92,7 @@ We have made it as simple as possible to manage the presence or absence of aller
     + 治療方法などのメモ
 
 
-### **diagnosticians** table definition  
+### **diagnosticians** table definition 診断者テーブル
 
 |cid|name|type|notnull|dflt_value|pk|hidden|
 |---|---|---|---|---|---|---|
@@ -102,7 +104,7 @@ We have made it as simple as possible to manage the presence or absence of aller
     + Person who made the diagnosis (e.g., the person himself/herself, Doctor xx)
     + 診断した者(例:本人,xx医師)
 
-### **meals** table definition  
+### **meals** table definition 食事テーブル
 
 |cid|name|type|notnull|dflt_value|pk|hidden|
 |---|---|---|---|---|---|---|
@@ -127,7 +129,7 @@ We have made it as simple as possible to manage the presence or absence of aller
     * 食事の内容の簡単なメモ書き
 
 
-### **reactions** table definition  
+### **reactions** table definition アレルギー反応テーブル
 
 |cid|name|type|notnull|dflt_value|pk|hidden|
 |---|---|---|---|---|---|---|
