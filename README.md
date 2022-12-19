@@ -36,7 +36,7 @@ We have made it as simple as possible to manage the presence or absence of aller
 |sqlite_sequence|autoincrement of siagnostician <br> siagnosticianのautoincrement|
 
 
-## table definitions テーブルの構成
+## table configuration テーブルの構成
 
 ### **allergens** table configuration  アレルギー原の食材テーブル
 
