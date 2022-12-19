@@ -38,7 +38,7 @@ We have made it as simple as possible to manage the presence or absence of aller
 
 ## table definitions テーブルの構成
 
-### **allergens** table definition  アレルギー原の食材テーブル
+### **allergens** table configuration  アレルギー原の食材テーブル
 
 |cid|name|type|notnull|dflt_value|pk|hidden|
 |---|---|---|---|---|---|---|
@@ -55,7 +55,7 @@ We have made it as simple as possible to manage the presence or absence of aller
     + 診断した者(diagnostician table 参照)
 
 
-### **diagnoses** table definition アレルギーの診断テーブル
+### **diagnoses** table configuration アレルギーの診断テーブル
 
 |cid|name|type|notnull|dflt_value|pk|hidden|
 |---|---|---|---|---|---|---|
@@ -92,7 +92,7 @@ We have made it as simple as possible to manage the presence or absence of aller
     + 治療方法などのメモ
 
 
-### **diagnosticians** table definition 診断者テーブル
+### **diagnosticians** table configuration 診断者テーブル
 
 |cid|name|type|notnull|dflt_value|pk|hidden|
 |---|---|---|---|---|---|---|
@@ -104,7 +104,7 @@ We have made it as simple as possible to manage the presence or absence of aller
     + Person who made the diagnosis (e.g., the person himself/herself, Doctor xx)
     + 診断した者(例:本人,xx医師)
 
-### **meals** table definition 食事テーブル
+### **meals** table configuration 食事テーブル
 
 |cid|name|type|notnull|dflt_value|pk|hidden|
 |---|---|---|---|---|---|---|
@@ -129,7 +129,7 @@ We have made it as simple as possible to manage the presence or absence of aller
     * 食事の内容の簡単なメモ書き
 
 
-### **reactions** table definition アレルギー反応テーブル
+### **reactions** table configuration アレルギー反応テーブル
 
 |cid|name|type|notnull|dflt_value|pk|hidden|
 |---|---|---|---|---|---|---|
